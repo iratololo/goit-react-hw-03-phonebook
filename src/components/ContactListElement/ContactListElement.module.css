@@ -1,0 +1,32 @@
+.item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    transition: all 150ms linear;
+}
+
+.item:hover {
+    color: #fcb150;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 3px;
+    color: #fcb150;
+    transition: all 150ms linear;
+    font-size: 12px;
+}
+
+.button:hover {
+    color: #e64c65;
+}
+
+.span {
+    flex-basis: 130px;
+}
